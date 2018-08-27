@@ -1,6 +1,6 @@
 # elm-calc-example
 
-A basic Elm arithmetic expressions parser/evaluator example to get started with [elm-tools/parser](http://package.elm-lang.org/packages/elm-tools/parser/latest).
+A basic Elm 0.18 arithmetic expressions parser/evaluator example to get started with [elm-tools/parser](http://package.elm-lang.org/packages/elm-tools/parser/latest).
 
 It also uses [rtfeldman/elm-css](http://package.elm-lang.org/packages/rtfeldman/elm-css/latest) to style the page.
 
@@ -18,7 +18,9 @@ Or locally for example with `elm-reactor`:
 
 > elm reactor
 
-## Note
+## Notes
 
-If you test some recursive decoders or parsers with Elm 0.18, be careful with [this bug](https://github.com/elm-lang/elm-compiler/issues/1591).
+* If you test some recursive decoders or parsers with Elm 0.18, be careful with [this bug](https://github.com/elm-lang/elm-compiler/issues/1591).
 See [Help, my recursive Decoder caused a runtime exception!](https://blog.ilias.xyz/help-my-recursive-decoder-caused-a-runtime-exception-453d46a99e1e) for more information.
+* For Elm 0.19, see [this official parser example instead](https://github.com/elm/parser/blob/1.0.0/examples/Math.elm).
+
