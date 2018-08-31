@@ -6,7 +6,7 @@ It also uses [rtfeldman/elm-css](http://package.elm-lang.org/packages/rtfeldman/
 
 ## Usage
 
-You can play with it [here](https://rlefevre.github.io/elm-calc-example/).
+You can play with it [here](https://rlefevre.github.io/elm-calc-example).
 
 Or in Ellie:
 
