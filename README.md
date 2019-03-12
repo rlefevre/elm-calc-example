@@ -22,5 +22,5 @@ Or locally for example with `elm-reactor`:
 
 * If you test some recursive decoders or parsers with Elm 0.18, be careful with [this bug](https://github.com/elm-lang/elm-compiler/issues/1591).
 See [Help, my recursive Decoder caused a runtime exception!](https://blog.ilias.xyz/help-my-recursive-decoder-caused-a-runtime-exception-453d46a99e1e) for more information.
-* For Elm 0.19, see [this official parser example instead](https://github.com/elm/parser/blob/1.0.0/examples/Math.elm).
+* For Elm 0.19, I would advise to use [elm-pratt-parser](https://package.elm-lang.org/packages/dmy/elm-pratt-parser/latest).
 
